@@ -1,0 +1,12 @@
+This Project work is done in C++,
+
+The work represents what was asked based on my best interpretation of the assignement since some parts of it were not very clearly explained. I had spend a good amount of time with Sean during his office hours to make sure i'm implementing the pattern here correctly. To understand the project i have added comments in the code were necessary however the code (for the most part) is self explaintory. I call a static buildportfolio manager funciton once the 'main' program runs to create and evaluate the entire portfolio adhering to what was asker per the assignment. while this program is running i print exactly what's happening to the stdout so the reader can follow along with the prints as well as the code.
+
+I 1st create a portfolio with portpolios and accounts in it. I then add some account to a portfolio within the 1st portfolio. i could ofcouse have kept going and adding to the portfolio tree structure but the point and purpose of it can be noted by what i have.
+Once all the portfolios and account are created i create a pricingvisitor to visit a portfolio and or an account to evaluate it. The pricing visitor uses a pricing iterator to iterate through all the elements in a portfolio (recursively) or an account and correclty returns its value.
+
+I complied this code using xcode and it build and ran sucessfully.
+
+Please email with any questions @ aakrit@uchicago.edu
+
+Thank you.
